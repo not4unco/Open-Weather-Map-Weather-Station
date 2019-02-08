@@ -52,8 +52,8 @@ See more at https://thingpulse.com
  **************************/
 
 // WIFI
-//const char* WIFI_SSID = "ReefAngel";
-//const char* WIFI_PWD = "Collin1123!";
+//const char* WIFI_SSID = "SSID";
+//const char* WIFI_PWD = "YOUR PASSWORD";
 
 #define HOSTNAME "ESP8266-OTA-"
 
@@ -96,7 +96,7 @@ char FormattedHumidity[10];
 // OpenWeatherMap Settings
 // Sign up here to get an API key:
 // https://docs.thingpulse.com/how-tos/openweathermap-key/
-String OPEN_WEATHER_MAP_APP_ID = "fd000d0c84afa67d59414b12e9b7ab4a";
+String OPEN_WEATHER_MAP_APP_ID = "YOUR API FROM OPEN WEATHER MAPS";
 /*
 Go to https://openweathermap.org/find?q= and search for a location. Go through the
 result set and select the entry closest to the actual location you want to display 
